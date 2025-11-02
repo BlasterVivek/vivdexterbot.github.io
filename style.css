@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top, #0b0c10, #000);
+  color: white;
+  text-align: center;
+}
+
+.hero {
+  padding: 100px 20px;
+  position: relative;
+}
+
+.hero-bg-logo {
+  width: 150px;
+  height: auto;
+  animation: float 3s ease-in-out infinite;
+  border-radius: 15px;
+  box-shadow: 0 0 25px #ff0000;
+}
+
+.glow-text {
+  font-size: 3rem;
+  text-shadow: 0 0 20px #ff0000, 0 0 40px #ff3333;
+  margin: 10px 0;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  background: #ff0000;
+  padding: 12px 25px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #ff0000;
+}
+
+.button:hover {
+  background: #ff3333;
+  box-shadow: 0 0 25px #ff0000;
+}
+
+.commands {
+  padding: 40px 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+
+.commands ul {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+.commands li {
+  margin: 10px 0;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.commands li:hover {
+  background: rgba(255, 0, 0, 0.3);
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
