@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dexter Morgan — Commands</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(circle at center, #080808, #000000);
+      color: white;
+      text-align: center;
+      overflow-x: hidden;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    h1 {
+      margin-top: 50px;
+      font-size: 3rem;
+      text-shadow: 0 0 20px #ff0000, 0 0 40px #ff2020;
+      animation: flicker 2s infinite alternate;
+    }
+
+    p.subtitle {
+      color: #ccc;
+      font-size: 1.1rem;
+      margin-bottom: 40px;
+    }
+
+    .commands-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 0 20px 60px;
+    }
+
+    .command {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid crimson;
+      border-radius: 15px;
+      width: 280px;
+      padding: 20px;
+      text-align: left;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 15px #ff000020;
+    }
+
+    .command:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 35px #ff000080;
+    }
+
+    .command h3 {
+      color: #ff5050;
+      margin-bottom: 10px;
+      text-shadow: 0 0 15px #ff0000;
+    }
+
+    .command p {
+      color: #bbb;
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin: 40px auto;
+      background: linear-gradient(90deg, #ff0000, #ff6600);
+      color: white;
+      padding: 12px 30px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 25px #ff0000;
+      transition: 0.3s;
+    }
+
+    .back-btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 45px #ff0000;
+    }
+
+    footer {
+      background: #070707;
+      padding: 25px 10px;
+      border-top: 1px solid #222;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    footer a {
+      color: #ff5050;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      color: white;
+      text-shadow: 0 0 15px red;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes flicker {
+      0% { opacity: 1; }
+      50% { opacity: 0.85; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <h1>🩸 Dexter Morgan — Commands 🩸</h1>
+  <p class="subtitle">Every command explained below — more coming soon.</p>
+
+  <div class="commands-container">
+    <!-- ===== General Commands ===== -->
+    <div class="command">
+      <h3>,afk</h3>
+      <p>Sets your AFK status with an optional reason so others know you’re away.</p>
+    </div>
+
+    <div class="command">
+      <h3>,ai</h3>
+      <p>Talk with Dexter’s built-in AI — replies smartly just like a human.</p>
+    </div>
+
+    <div class="command">
+      <h3>,anime</h3>
+      <p>Search anime details or random anime characters with visual embeds.</p>
+    </div>
+
+    <div class="command">
+      <h3>,av</h3>
+      <p>Displays any user’s avatar in high quality with a download link.</p>
+    </div>
+
+    <div class="command">
+      <h3>,banner</h3>
+      <p>Shows a user’s Discord banner image in full HD.</p>
+    </div>
+
+    <div class="command">
+      <h3>,botinfo</h3>
+      <p>Shows info about Dexter Morgan — version, uptime, and ping.</p>
+    </div>
+
+    <div class="command">
+      <h3>,daily</h3>
+      <p>Claim your daily coins or rewards — resets every 24 hours.</p>
+    </div>
+
+    <div class="command">
+      <h3>,embed</h3>
+      <p>Create a custom embed message in your server easily.</p>
+    </div>
+
+    <div class="command">
+      <h3>,help</h3>
+      <p>Shows all available commands and their categories.</p>
+    </div>
+
+    <div class="command">
+      <h3>,img</h3>
+      <p>Fetches high-quality images from the web instantly.</p>
+    </div>
+
+    <div class="command">
+      <h3>,joke</h3>
+      <p>Posts a random funny joke to lighten the mood.</p>
+    </div>
+
+    <div class="command">
+      <h3>,lr / ,ur / ,sparking / ,ultra</h3>
+      <p>Display your collected characters from Dokkan Battle by rarity.</p>
+    </div>
+
+    <div class="command">
+      <h3>,meme</h3>
+      <p>Pulls a random meme from Reddit — good laughs guaranteed.</p>
+    </div>
+
+    <div class="command">
+      <h3>,ping</h3>
+      <p>Shows bot response time — simple but useful for checking latency.</p>
+    </div>
+
+    <div class="command">
+      <h3>,rps</h3>
+      <p>Play Rock Paper Scissors with Dexter for fun.</p>
+    </div>
+
+    <div class="command">
+      <h3>,serverinfo / ,userinfo</h3>
+      <p>Display detailed server or user info including roles, ID, and creation date.</p>
+    </div>
+
+    <div class="command">
+      <h3>,shop / ,buy</h3>
+      <p>Access the in-bot shop and purchase upgrades or collectibles.</p>
+    </div>
+
+    <div class="command">
+      <h3>,msg</h3>
+      <p>Send a direct message to someone via the bot (admin-only).</p>
+    </div>
+
+    <div class="command">
+      <h3>,roll / ,roll5 / ,roll10</h3>
+      <p>Roll for random anime or Dokkan characters — 5x and 10x for multiple rolls.</p>
+    </div>
+
+    <div class="command">
+      <h3>,bonus</h3>
+      <p>Earn special rewards occasionally — depends on your streak!</p>
+    </div>
+  </div>
+
+  <a href="index.html" class="back-btn">⬅ Back to Home</a>
+
+  <footer>
+    <p>© 2025 Dexter Morgan Bot | Built by <strong>@blaster_viv</strong> | 
+      <a href="https://discord.gg/godkuproject" target="_blank">Support Server</a>
+    </p>
+  </footer>
+</body>
+</html>
